@@ -1,8 +1,8 @@
-puts "Enter first number: "
+puts 'Enter first number: '
 num1 = gets.chomp.to_f
-puts "Enter operator: "
+puts 'Enter operator: '
 op = gets.chomp
-puts "Enter second number: "
+puts 'Enter second number: '
 num2 = gets.chomp.to_f
 
 if op == '+'
@@ -14,5 +14,5 @@ elsif op == '*'
 elsif op == '/'
   puts (num1 / num2)
 else
-  puts "Invalid operator"
+  puts 'Invalid operator'
 end
