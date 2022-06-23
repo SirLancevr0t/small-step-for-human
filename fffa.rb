@@ -1,10 +1,10 @@
 numbers = [3, 543, 25, 6, 753, 96, 10, 0, 53, 50]
 # Dan celochislenniy massiv
-# Neobhodino vivesti vnachalo ego elementi s chetnumi indeksami a zatem s nechetnimi
+# Neobhodimo vivesti vnachalo ego elementi s chetnumi indeksami a zatem s nechetnimi
 even_numbers = []
 odd_numbers = []
-numbers.each do |number|
-  even_numbers.push(number) if number.even?
-  odd_numbers.push(number) if number.odd?
+numbers.each_with_index do |number, index|
+  even_numbers.push(number) if index.even?
+  odd_numbers.push(number) if index.odd?
 end
  puts  "#{even_numbers}, #{odd_numbers}"
