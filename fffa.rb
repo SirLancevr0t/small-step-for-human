@@ -8,3 +8,10 @@ numbers.each_with_index do |number, index|
   odd_numbers.push(number) if index.odd?
 end
  puts  "#{even_numbers}, #{odd_numbers}"
+# Заменить все элементы на значение максимального.
+numbers = [3, 543, 25, 6, 753, 96, 10, 0, 53, 50]
+max_numbers = []
+numbers.length.times do 
+  max_numbers.push(numbers.max) 
+end
+puts max_numbers
