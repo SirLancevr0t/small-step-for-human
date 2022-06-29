@@ -24,3 +24,6 @@ numbers = [3, 543, 25, 6, 753, 96, 10, 0, 53, 50]
 puts numbers.max
 puts numbers.min
 #Осуществить циклический сдвиг элементов вправо на одну позицию
+numbers = [3, 543, 25, 6, 753, 96, 10, 0, 53, 50]
+numbers.insert(0, numbers.pop)
+puts numbers
