@@ -1,0 +1,4 @@
+def anal(number) 
+  puts "put you`r finger in my ass" * number
+end
+anal(3)
